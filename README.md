@@ -1,2 +1,4 @@
-# Web-Design-Challenge
-HTML, CSS, Bootstrap media queries, glyphicons, CSV
+# Web-Design-Challenge -Web Visualization Dashboard (Latitude)
+HTML, CSS, Bootstrap media queries, CSV
+
+

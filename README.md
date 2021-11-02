@@ -15,30 +15,41 @@ Note: The code files csv_to_html are the same code. Just noted the differences i
 The csv_to_html code allows the easy generation of an HTML table of results from a CSV file. 
 
 ### Setup
-Used the following ***directory*** / - file setup:
+Used the following ***directory***  and  file setup:
 
-***root***
-    ***code*** 
-            - csv_to_html.ipynb
-            - csv_to_html.py
-    ***data***
-            - cities.csv
-    ***plots***
-            - Cloudiness.html
-            - Humidity.html
-            - MaxTemperature.html 
-            - WindSpeed.html
-    ***static***
-                ***css***
-                        - main.css
-                ***images***
-                        - Fig1.png
-                        - Fig2.png
-                        - Fig3.png
-                        - Fig4.png
-   - index.html
-   - data.html
-   - comparison.html
+- ***root*** directory
+- files in root directory:
+- index.html
+- data.html
+- comparison.html
+
+- ***code***  (under the root directory)
+- files in code directory:
+- csv_to_html.ipynb
+- csv_to_html.py
+   
+- ***data*** (under the root directory)
+- files in data directory:
+- cities.csv
+
+-***plots*** (under the root directory)
+- files in plots directory:
+- Cloudiness.html
+- Humidity.html
+- MaxTemperature.html 
+- WindSpeed.html
+    
+-***static*** (under the root directory)
+-***css*** (under the static directory)
+- files in css directory:
+- main.css
+-***images*** (under the static directory)
+- files in images directory:
+- Fig1.png
+- Fig2.png
+- Fig3.png
+- Fig4.png
+   
    
   ### Landing page:
   Explanation of the project.

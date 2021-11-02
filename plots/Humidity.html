@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humidity</title>
+    <link rel="shortcut icon" type="image/jpg" href="../static/images/favicon.ico"/>
+    <!-- Bring in Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" medida="screen" href="../static/css/main.css">
+</head>
+<body>
+    <!--navigation bar-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html" style="background-color: #66a5a2;">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-controls="navbarDropDown" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                        </div> 
+                    </li>
+            
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+    </div> <!--end nav div-->
+    <!-- start of main body -->
+    <div class="container">
+        <div class="row">
+            <!-- Left Side -->
+            <div class="col col-12 col-md-8 wrapper_left">
+                <div class="box">
+                    <h1>Latitude vs. Humidity</h1>
+                    <hr>
+                    <img src="../static/images/Fig2.png" class="flt-img-left"  alt="Latitude vs. Humidity">
+                    <p>
+                        No trends are apparent between latitude and humidity. Humidity appears to be mostly regular across latitudes, though with an absence of lower humidity values near the equator and Arctic. This makes sense, due to the humidity of tropical climates, and the northern latitudes being on the boundary between winter and spring.
+                    </p>
+                    
+                </div>  <!-- ends box -->
+            </div> <!-- Left Side ends -->
+            <!-- Right Side -->
+            <div class="col col-12 col-md-4 wrapper">
+                <div class="box">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <div class='row h-7'>
+                        <div class="col col-3 col-md-6">
+                            <a href="MaxTemperature.html"><img src="../static/images/Fig1.png" class="image-fluid" alt="Maximum Temperature Graph" title="Max Temp"></a>
+                        </div>
+                        <div class="col col-3 col-md-6">
+                            <a href="Humidity.html"><img src="../static/images/Fig2.png" class="image-fluid" alt="Humidity Graph" title="Humidity"></a>
+                        </div>
+                        <div class="col col-3 col-md-6">
+                            <a href="Cloudiness.html"><img src="../static/images/Fig3.png" class="image-fluid" alt="Cloudiness Graph" title="Cloudiness"></a>
+                        </div>
+                        <div class="col col-3 col-md-6">
+                            <a href="WindSpeed.html"><img src="../static/images/Fig4.png" class="image-fluid" alt="Wind Speed Graph" title="Wind Speed"></a>
+                        </div>
+                    </div> <!--end row-->
+                </div> <!--end box-->
+            </div> <!-- End Right Side -->
+        </div> <!--end row-->
+    </div>  <!-- End Container -->
+    <!-- Footer -->
+  
+    <br>
+    <div>
+    <div class="row">
+        <div class="col col-12 wrapfooter">© Copyright Sherry 2021</div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+</body>
+</html>

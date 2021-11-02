@@ -1,0 +1,153 @@
+/****** Body ******/
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia,'Times New Roman',Times, serif;
+    /* default font size convert pixels to em */
+    /* font-size: 16px; */
+    font-size: 1em;
+    color:darkgrey;
+    
+}
+/****** Headers ******/
+h1,h3 {
+    color: #66a5a2;
+}
+
+
+/****** Paragraph ******/
+p {
+    color: gray;
+    font-family: Verdana, Arial sans-serif;
+    font-size: 0.875em;
+    line-height: 2em;
+}
+
+
+/*************************/
+/****** Navbar ******/
+.navigation {
+    color: white;
+    font-family: sans-serif;
+    font-size: smaller;
+    padding: inherit;
+}
+
+.navigation .navbar-brand {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 1.875em;
+    margin-left: 1.875rem;
+    padding: 0.625rem;
+    box-sizing: border-box;
+}
+
+.navbar-nav a:hover{
+    color: green;
+    font-weight: 900;
+    background-color: rgb(238, 238, 238);;
+}
+.navbar a{
+    text-decoration: none;
+    color: black; 
+    
+}
+
+li.nav-item.dropdown .dropdown-menu {
+    border: none;
+    font-size: small;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+}
+
+
+/*************************/
+/****** Images ******/
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+/* show square around image */
+.image-active, .image-fluid:hover{
+    border-color: #66a5a2;
+    border-style: solid;
+}
+
+/* float for text to wrap on smaller image */
+.flt-img-left{
+    float: left;
+    width: 50%;
+}
+/*************************/
+/* white background box */
+.box {
+    margin-top: 3.125rem;
+    margin-bottom: 3.75rem;
+    padding: 0.625rem 1.875rem 0.625rem;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625rem;
+  
+  }
+  /* Row longer for box */
+.h-7 {
+    min-height: 7em;
+    margin-top: 1em;
+}
+
+/* font and alignment changes */
+.black_font{
+    color: black;
+}
+
+.text-center {
+    text-align: center;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+/*************************/
+/* wrapper classes displaying left and right side and footer */
+.wrapper, .wrapper_left{
+    width:90%;
+    margin: 1.25px auto;
+    padding:1em;
+  }
+
+.wrapfooter {
+    width:100%;
+    /* position:absolute; */
+    bottom:0;
+    background-color: gray;
+    z-index:0;
+    font-size: 0.75em;
+    color: white;
+    text-align: center;
+    padding: 0.3125rem;
+    margin-top: 0.3125rem;
+  }
+
+
+
+/* 992
+821 */
+@media(max-width: 992px){
+    /* Navigation changes */
+    .navbar{
+        background-color: #66a5a2!important;
+        max-height: none; 
+        padding: inherit;
+     }
+
+     .navbar-collapse{
+        background-color: white!important;
+     }
+    
+}
+

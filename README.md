@@ -1,6 +1,8 @@
 # Web-Design-Challenge -Web Visualization Dashboard (Latitude)
 HTML, CSS, Bootstrap media queries, CSV
 
+### Dashboard coded and tested for Chome browser only.
+
 ## Background 
 Data analysed previously with [WeatherVacationAnalysis_api](https://github.com/SherryKennedy/WeatherVacationAnalysis_api)
  

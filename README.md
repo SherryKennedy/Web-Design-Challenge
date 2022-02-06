@@ -10,6 +10,8 @@ Created a dashboard to show the findings with visualizations.
 Plotted weather data from [weather data](data/cities.csv).
 View the website: [Web-Design-Challenge](https://sherrykennedy.github.io/Web-Design-Challenge/)
 
+![Web Site Main Page Image](https://github.com/SherryKennedy/WeatherVacationAnalysis_api/WebIndexSample.jpg)
+
 Built a datshboard. Created four individual pages for each plot and a means by which one can navigate between them (navigation menu). The pages contain visualizations and their corresponding explanations. Created a landing page, a comparison page (to compare all of the plots), and a data page showing the data used to build the plots. Seven HTML pages in total. 
 
 Bootstrap was used to create responsive pages, to show the results on various screen sizes.
